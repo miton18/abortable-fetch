@@ -1,0 +1,32 @@
+{
+  "name": "abortable-fetch",
+  "version": "0.0.2",
+  "description": "Make the fetch() API abortable",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miton18/abortable-fetch.git"
+  },
+  "keywords": [
+    "browser",
+    "npm",
+    "fetch"
+  ],
+  "author": "Rémi Collignon<remi+contact@collignon-ducret.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miton18/abortable-fetch/issues"
+  },
+  "homepage": "https://github.com/miton18/abortable-fetch#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "typescript": "^3.5.3"
+  }
+}
